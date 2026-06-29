@@ -20,4 +20,12 @@ export default function App() {
                     <Navbar />
                     <Routes>
                         <Route path="/" element={<Home />} />
-                        <Route path="/dashboard"
+                        <Route path="/dashboard" element={<Dashboard />} />
+                        <Route path="/objetivos" element={<Objetivos />} />
+                        <Route path="/historial" element={<Historial />} />
+                    </Routes>
+                </BrowserRouter>
+            )}
+        </ThemeProvider>
+    )
+}
